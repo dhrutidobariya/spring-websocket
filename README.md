@@ -16,38 +16,6 @@ A simple, real-time chat application built using Spring Boot, WebSockets, and Th
 *   **WebSocket Client Libraries:** SockJS, STOMP.js
 *   **Build Tool:** Maven
 
-## Prerequisites
-
-*   Java 21 or higher installed on your system.
-*   Maven installed (or use the provided Maven wrapper `mvnw`).
-
-## Project Structure
-
-*   `src/main/java/com/ChatApp/Chat/`: Contains the main application class, WebSocket configuration (`Config`), REST/WebSocket controllers (`Controller`), and data models (`model`).
-*   `src/main/resources/templates/chat.html`: The main user interface for the chat application, utilizing Thymeleaf and frontend libraries.
-*   `pom.xml`: Maven configuration file containing project dependencies.
-
-## Getting Started
-
-### 1. Clone the repository
-If you are using Git, clone the project. Otherwise, navigate to the project directory `d:/chat`.
-
-### 2. Run the application
-You can run the application using Maven. Open your terminal or command prompt, navigate to the root directory of the project, and execute:
-
-```bash
-mvn spring-boot:run
-```
-*(Alternatively, you can run the `ChatApplication.java` main class directly from your IDE).*
-
-### 3. Access the Chat App
-Once the application starts, open your web browser and navigate to:
-```
-http://localhost:8080/
-```
-*(Assuming the server runs on the default port 8080)*
-
-You can open the URL in multiple browser tabs or windows to simulate different users chatting in real-time.
 
 ## How It Works
 
